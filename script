@@ -29,31 +29,28 @@ local soon = Instance.new("TextLabel")
 local main = Instance.new("Frame")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local UICorner_6 = Instance.new("UICorner")
-local KILL = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local RE = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
 local user = Instance.new("TextLabel")
-local soon_2 = Instance.new("TextLabel")
-local Dex = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local DaHood = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local MM2 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local Bedwars = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local Rspy = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local Homebrew = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local UnnamedESP = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local IY = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
 local title2 = Instance.new("TextLabel")
+local line_3 = Instance.new("TextLabel")
+local Main = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
 local LocalPlayer = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local Misc = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local line_4 = Instance.new("TextLabel")
+local Homebrew = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local IY = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local owlhub = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local poandso = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local simplesply = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local unnamedesp = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
 
 --Properties:
 
@@ -261,36 +258,6 @@ UIAspectRatioConstraint_5.AspectRatio = 1.750
 UICorner_6.CornerRadius = UDim.new(0.0500000007, 1)
 UICorner_6.Parent = main
 
-KILL.Name = "KILL"
-KILL.Parent = main
-KILL.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-KILL.BorderColor3 = Color3.fromRGB(0, 0, 0)
-KILL.BorderSizePixel = 0
-KILL.Position = UDim2.new(0.158296183, 0, 0.0258514807, 0)
-KILL.Size = UDim2.new(0.0939533412, 0, 0.104247779, 0)
-KILL.Font = Enum.Font.RobotoMono
-KILL.Text = "KILL"
-KILL.TextColor3 = Color3.fromRGB(0, 0, 0)
-KILL.TextSize = 20.000
-
-UICorner_7.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_7.Parent = KILL
-
-RE.Name = "RE"
-RE.Parent = main
-RE.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-RE.BorderColor3 = Color3.fromRGB(0, 0, 0)
-RE.BorderSizePixel = 0
-RE.Position = UDim2.new(0.0437308513, 0, 0.0258514807, 0)
-RE.Size = UDim2.new(0.0939533412, 0, 0.104247779, 0)
-RE.Font = Enum.Font.RobotoMono
-RE.Text = "RE"
-RE.TextColor3 = Color3.fromRGB(0, 0, 0)
-RE.TextSize = 20.000
-
-UICorner_8.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_8.Parent = RE
-
 user.Name = "user"
 user.Parent = main
 user.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -304,170 +271,183 @@ user.Text = "username"
 user.TextColor3 = Color3.fromRGB(0, 0, 0)
 user.TextSize = 15.000
 
-soon_2.Name = "soon"
-soon_2.Parent = main
-soon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-soon_2.BackgroundTransparency = 1.000
-soon_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-soon_2.BorderSizePixel = 0
-soon_2.Position = UDim2.new(0, 0, 0.653715372, 0)
-soon_2.Size = UDim2.new(1, 0, 0.0708215311, 0)
-soon_2.Font = Enum.Font.RobotoMono
-soon_2.Text = "Coming Soon..."
-soon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-soon_2.TextSize = 20.000
-
-Dex.Name = "Dex"
-Dex.Parent = main
-Dex.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-Dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Dex.BorderSizePixel = 0
-Dex.Position = UDim2.new(0.0313930549, 0, 0.341835469, 0)
-Dex.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-Dex.Font = Enum.Font.RobotoMono
-Dex.Text = "Dex"
-Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
-Dex.TextSize = 20.000
-
-UICorner_9.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_9.Parent = Dex
-
-DaHood.Name = "DaHood"
-DaHood.Parent = main
-DaHood.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-DaHood.BorderColor3 = Color3.fromRGB(0, 0, 0)
-DaHood.BorderSizePixel = 0
-DaHood.Position = UDim2.new(0.748201132, 0, 0.341835469, 0)
-DaHood.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-DaHood.Font = Enum.Font.RobotoMono
-DaHood.Text = "Da Hood"
-DaHood.TextColor3 = Color3.fromRGB(0, 0, 0)
-DaHood.TextSize = 20.000
-
-UICorner_10.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_10.Parent = DaHood
-
-MM2.Name = "MM2"
-MM2.Parent = main
-MM2.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-MM2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MM2.BorderSizePixel = 0
-MM2.Position = UDim2.new(0.509265125, 0, 0.341835469, 0)
-MM2.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-MM2.Font = Enum.Font.RobotoMono
-MM2.Text = "MM2"
-MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
-MM2.TextSize = 20.000
-
-UICorner_11.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_11.Parent = MM2
-
-Bedwars.Name = "Bedwars"
-Bedwars.Parent = main
-Bedwars.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-Bedwars.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bedwars.BorderSizePixel = 0
-Bedwars.Position = UDim2.new(0.270329088, 0, 0.341835469, 0)
-Bedwars.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-Bedwars.Font = Enum.Font.RobotoMono
-Bedwars.Text = "Bedwars"
-Bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
-Bedwars.TextSize = 20.000
-
-UICorner_12.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_12.Parent = Bedwars
-
-Rspy.Name = "Rspy"
-Rspy.Parent = main
-Rspy.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-Rspy.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Rspy.BorderSizePixel = 0
-Rspy.Position = UDim2.new(0.748201132, 0, 0.180074036, 0)
-Rspy.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-Rspy.Font = Enum.Font.RobotoMono
-Rspy.Text = "Remote Spy"
-Rspy.TextColor3 = Color3.fromRGB(0, 0, 0)
-Rspy.TextSize = 20.000
-
-UICorner_13.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_13.Parent = Rspy
-
-Homebrew.Name = "Homebrew"
-Homebrew.Parent = main
-Homebrew.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-Homebrew.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Homebrew.BorderSizePixel = 0
-Homebrew.Position = UDim2.new(0.509265125, 0, 0.180074036, 0)
-Homebrew.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-Homebrew.Font = Enum.Font.RobotoMono
-Homebrew.Text = "Homebrew"
-Homebrew.TextColor3 = Color3.fromRGB(0, 0, 0)
-Homebrew.TextSize = 20.000
-
-UICorner_14.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_14.Parent = Homebrew
-
-UnnamedESP.Name = "Unnamed ESP"
-UnnamedESP.Parent = main
-UnnamedESP.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-UnnamedESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
-UnnamedESP.BorderSizePixel = 0
-UnnamedESP.Position = UDim2.new(0.270329088, 0, 0.180074036, 0)
-UnnamedESP.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-UnnamedESP.Font = Enum.Font.RobotoMono
-UnnamedESP.Text = "Unnamed ESP"
-UnnamedESP.TextColor3 = Color3.fromRGB(0, 0, 0)
-UnnamedESP.TextSize = 19.000
-
-UICorner_15.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_15.Parent = UnnamedESP
-
-IY.Name = "IY"
-IY.Parent = main
-IY.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
-IY.BorderSizePixel = 0
-IY.Position = UDim2.new(0.0313930549, 0, 0.180074036, 0)
-IY.Size = UDim2.new(0.215568855, 0, 0.122754492, 0)
-IY.Font = Enum.Font.RobotoMono
-IY.Text = "IY"
-IY.TextColor3 = Color3.fromRGB(0, 0, 0)
-IY.TextSize = 20.000
-
-UICorner_16.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_16.Parent = IY
-
 title2.Name = "title2"
 title2.Parent = main
 title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title2.BackgroundTransparency = 1.000
 title2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 title2.BorderSizePixel = 0
-title2.Position = UDim2.new(0, 0, 0.0427294336, 0)
+title2.Position = UDim2.new(0, 0, 0.042729456, 0)
 title2.Size = UDim2.new(1, 0, 0.0708215311, 0)
 title2.Font = Enum.Font.RobotoMono
-title2.Text = "Po & So GUI v0.0.2"
+title2.Text = "Po & So GUI v0.0.1"
 title2.TextColor3 = Color3.fromRGB(0, 0, 0)
-title2.TextSize = 22.000
+title2.TextSize = 20.000
+
+line_3.Name = "line"
+line_3.Parent = main
+line_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line_3.BackgroundTransparency = 1.000
+line_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line_3.BorderSizePixel = 0
+line_3.Position = UDim2.new(0, 0, 0.111666203, 0)
+line_3.Size = UDim2.new(1, 0, 0.0708215311, 0)
+line_3.Font = Enum.Font.RobotoMono
+line_3.Text = "----------------------------------------"
+line_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+line_3.TextSize = 20.000
+
+Main.Name = "Main"
+Main.Parent = main
+Main.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.0722642839, 0, 0.181982622, 0)
+Main.Size = UDim2.new(0.271431714, 0, 0.0771112815, 0)
+Main.Font = Enum.Font.RobotoMono
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(0, 0, 0)
+Main.TextSize = 18.000
+
+UICorner_7.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_7.Parent = Main
 
 LocalPlayer.Name = "LocalPlayer"
 LocalPlayer.Parent = main
-LocalPlayer.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
+LocalPlayer.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 LocalPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
 LocalPlayer.BorderSizePixel = 0
-LocalPlayer.Position = UDim2.new(0.0313927233, 0, 0.840146601, 0)
-LocalPlayer.Size = UDim2.new(0.932376802, 0, 0.122754484, 0)
+LocalPlayer.Position = UDim2.new(0.361321419, 0, 0.181982622, 0)
+LocalPlayer.Size = UDim2.new(0.271431714, 0, 0.0771112815, 0)
 LocalPlayer.Font = Enum.Font.RobotoMono
-LocalPlayer.Text = "LocalPlayer Stats"
+LocalPlayer.Text = "LocalPlayer"
 LocalPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
-LocalPlayer.TextSize = 20.000
+LocalPlayer.TextSize = 18.000
 
-UICorner_17.CornerRadius = UDim.new(0.0500000007, 10)
-UICorner_17.Parent = LocalPlayer
+UICorner_8.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_8.Parent = LocalPlayer
+
+Misc.Name = "Misc"
+Misc.Parent = main
+Misc.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+Misc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Misc.BorderSizePixel = 0
+Misc.Position = UDim2.new(0.655666173, 0, 0.181982622, 0)
+Misc.Size = UDim2.new(0.271431714, 0, 0.0771112815, 0)
+Misc.Font = Enum.Font.RobotoMono
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Misc.TextSize = 18.000
+
+UICorner_9.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_9.Parent = Misc
+
+line_4.Name = "line"
+line_4.Parent = main
+line_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line_4.BackgroundTransparency = 1.000
+line_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line_4.BorderSizePixel = 0
+line_4.Position = UDim2.new(0, 0, 0.256635398, 0)
+line_4.Size = UDim2.new(1, 0, 0.0708215311, 0)
+line_4.Font = Enum.Font.RobotoMono
+line_4.Text = "----------------------------------------"
+line_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+line_4.TextSize = 20.000
+
+Homebrew.Name = "Homebrew"
+Homebrew.Parent = main
+Homebrew.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+Homebrew.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Homebrew.BorderSizePixel = 0
+Homebrew.Position = UDim2.new(0.655666173, 0, 0.413316458, 0)
+Homebrew.Size = UDim2.new(0.271431714, 0, 0.151138112, 0)
+Homebrew.Font = Enum.Font.RobotoMono
+Homebrew.Text = "Homebrew"
+Homebrew.TextColor3 = Color3.fromRGB(0, 0, 0)
+Homebrew.TextSize = 18.000
+
+UICorner_10.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_10.Parent = Homebrew
+
+IY.Name = "IY"
+IY.Parent = main
+IY.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IY.BorderSizePixel = 0
+IY.Position = UDim2.new(0.361321419, 0, 0.413316458, 0)
+IY.Size = UDim2.new(0.271431714, 0, 0.151138112, 0)
+IY.Font = Enum.Font.RobotoMono
+IY.Text = "Infinite Yield"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextSize = 18.000
+
+UICorner_11.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_11.Parent = IY
+
+owlhub.Name = "owlhub"
+owlhub.Parent = main
+owlhub.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+owlhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+owlhub.BorderSizePixel = 0
+owlhub.Position = UDim2.new(0.0722642839, 0, 0.592214644, 0)
+owlhub.Size = UDim2.new(0.271431714, 0, 0.151138112, 0)
+owlhub.Font = Enum.Font.RobotoMono
+owlhub.Text = "Owl Hub"
+owlhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+owlhub.TextSize = 18.000
+
+UICorner_12.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_12.Parent = owlhub
+
+poandso.Name = "poandso"
+poandso.Parent = main
+poandso.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+poandso.BorderColor3 = Color3.fromRGB(0, 0, 0)
+poandso.BorderSizePixel = 0
+poandso.Position = UDim2.new(0.0722642839, 0, 0.413316458, 0)
+poandso.Size = UDim2.new(0.271431714, 0, 0.151138112, 0)
+poandso.Font = Enum.Font.RobotoMono
+poandso.Text = "Po & So Anthem"
+poandso.TextColor3 = Color3.fromRGB(0, 0, 0)
+poandso.TextSize = 18.000
+
+UICorner_13.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_13.Parent = poandso
+
+simplesply.Name = "simplesply"
+simplesply.Parent = main
+simplesply.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+simplesply.BorderColor3 = Color3.fromRGB(0, 0, 0)
+simplesply.BorderSizePixel = 0
+simplesply.Position = UDim2.new(0.655666173, 0, 0.592214644, 0)
+simplesply.Size = UDim2.new(0.271431714, 0, 0.151138112, 0)
+simplesply.Font = Enum.Font.RobotoMono
+simplesply.Text = "Simple Spy"
+simplesply.TextColor3 = Color3.fromRGB(0, 0, 0)
+simplesply.TextSize = 18.000
+
+UICorner_14.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_14.Parent = simplesply
+
+unnamedesp.Name = "unnamedesp"
+unnamedesp.Parent = main
+unnamedesp.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+unnamedesp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unnamedesp.BorderSizePixel = 0
+unnamedesp.Position = UDim2.new(0.361321419, 0, 0.592214644, 0)
+unnamedesp.Size = UDim2.new(0.271431714, 0, 0.151138112, 0)
+unnamedesp.Font = Enum.Font.RobotoMono
+unnamedesp.Text = "Unnamed ESP"
+unnamedesp.TextColor3 = Color3.fromRGB(0, 0, 0)
+unnamedesp.TextSize = 18.000
+
+UICorner_15.CornerRadius = UDim.new(0.0500000007, 7)
+UICorner_15.Parent = unnamedesp
 
 -- Scripts:
 
-local function WUCT_fake_script() -- notification.fade2 
+local function GTBWC_fake_script() -- notification.fade2 
 	local script = Instance.new('LocalScript', notification)
 
 	local textLabel = script.Parent
@@ -508,8 +488,8 @@ local function WUCT_fake_script() -- notification.fade2
 	wait(5)
 	fadeOut()
 end
-coroutine.wrap(WUCT_fake_script)()
-local function CAQT_fake_script() -- notification.textanim2 
+coroutine.wrap(GTBWC_fake_script)()
+local function TXAI_fake_script() -- notification.textanim2 
 	local script = Instance.new('LocalScript', notification)
 
 	local textLabel = script.Parent
@@ -527,8 +507,8 @@ local function CAQT_fake_script() -- notification.textanim2
 	wait(1)
 	animateText()
 end
-coroutine.wrap(CAQT_fake_script)()
-local function VDCQ_fake_script() -- welcome.fade1 
+coroutine.wrap(TXAI_fake_script)()
+local function QANJ_fake_script() -- welcome.fade1 
 	local script = Instance.new('LocalScript', welcome)
 
 	local textLabel = script.Parent
@@ -568,8 +548,8 @@ local function VDCQ_fake_script() -- welcome.fade1
 	wait(5)
 	fadeOut()
 end
-coroutine.wrap(VDCQ_fake_script)()
-local function BUDWTQ_fake_script() -- welcome.textanim 
+coroutine.wrap(QANJ_fake_script)()
+local function TFZQN_fake_script() -- welcome.textanim 
 	local script = Instance.new('LocalScript', welcome)
 
 	local playerName = game:GetService("Players").LocalPlayer.Name
@@ -601,8 +581,8 @@ local function BUDWTQ_fake_script() -- welcome.textanim
 	
 	typingSound:Stop()
 end
-coroutine.wrap(BUDWTQ_fake_script)()
-local function ZTBA_fake_script() -- info.fade3 
+coroutine.wrap(TFZQN_fake_script)()
+local function WCUKGS_fake_script() -- info.fade3 
 	local script = Instance.new('LocalScript', info)
 
 	local textLabel = script.Parent
@@ -643,8 +623,8 @@ local function ZTBA_fake_script() -- info.fade3
 	wait(5)
 	fadeOut()
 end
-coroutine.wrap(ZTBA_fake_script)()
-local function SGOR_fake_script() -- info.textanim3 
+coroutine.wrap(WCUKGS_fake_script)()
+local function IUGD_fake_script() -- info.textanim3 
 	local script = Instance.new('LocalScript', info)
 
 	local textLabel = script.Parent
@@ -663,8 +643,8 @@ local function SGOR_fake_script() -- info.textanim3
 	wait(2)
 	animateText()
 end
-coroutine.wrap(SGOR_fake_script)()
-local function IPRBXG_fake_script() -- loaded.fade1 
+coroutine.wrap(IUGD_fake_script)()
+local function ZDJTS_fake_script() -- loaded.fade1 
 	local script = Instance.new('LocalScript', loaded)
 
 	local textLabel = script.Parent
@@ -704,8 +684,8 @@ local function IPRBXG_fake_script() -- loaded.fade1
 	wait(2)
 	fadeOut()
 end
-coroutine.wrap(IPRBXG_fake_script)()
-local function CGSATQV_fake_script() -- loaded.textanim 
+coroutine.wrap(ZDJTS_fake_script)()
+local function KJUXOZ_fake_script() -- loaded.textanim 
 	local script = Instance.new('LocalScript', loaded)
 
 	local textLabel = script.Parent
@@ -720,8 +700,8 @@ local function CGSATQV_fake_script() -- loaded.textanim
 	local roundedTime = math.floor(randomTime * 1000 + 0.5) / 1000 -- Round to 3 decimal places
 	textLabel.Text = "Loaded in: " .. string.format("%.3f", roundedTime) .. " seconds"
 end
-coroutine.wrap(CGSATQV_fake_script)()
-local function PUPJAG_fake_script() -- infoframe.drag 
+coroutine.wrap(KJUXOZ_fake_script)()
+local function MCBZL_fake_script() -- infoframe.drag 
 	local script = Instance.new('LocalScript', infoframe)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -757,8 +737,8 @@ local function PUPJAG_fake_script() -- infoframe.drag
 		end
 	end)
 end
-coroutine.wrap(PUPJAG_fake_script)()
-local function KAHQGP_fake_script() -- infoframe.fadeinout 
+coroutine.wrap(MCBZL_fake_script)()
+local function HFLPU_fake_script() -- infoframe.fadeinout 
 	local script = Instance.new('LocalScript', infoframe)
 
 	local frame = script.Parent
@@ -795,8 +775,8 @@ local function KAHQGP_fake_script() -- infoframe.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(KAHQGP_fake_script)()
-local function TYFQHYP_fake_script() -- line.fadeinout 
+coroutine.wrap(HFLPU_fake_script)()
+local function NQHOD_fake_script() -- line.fadeinout 
 	local script = Instance.new('LocalScript', line)
 
 	local frame = script.Parent
@@ -833,8 +813,8 @@ local function TYFQHYP_fake_script() -- line.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(TYFQHYP_fake_script)()
-local function LTLR_fake_script() -- theo2.fadeinout 
+coroutine.wrap(NQHOD_fake_script)()
+local function EMUBQ_fake_script() -- theo2.fadeinout 
 	local script = Instance.new('LocalScript', theo2)
 
 	local frame = script.Parent
@@ -871,8 +851,8 @@ local function LTLR_fake_script() -- theo2.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(LTLR_fake_script)()
-local function IMAZJI_fake_script() -- theo.fadeinout 
+coroutine.wrap(EMUBQ_fake_script)()
+local function RQDI_fake_script() -- theo.fadeinout 
 	local script = Instance.new('LocalScript', theo)
 
 	local frame = script.Parent
@@ -909,8 +889,8 @@ local function IMAZJI_fake_script() -- theo.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(IMAZJI_fake_script)()
-local function KNBSA_fake_script() -- eperk2.fadeinout 
+coroutine.wrap(RQDI_fake_script)()
+local function HHLQ_fake_script() -- eperk2.fadeinout 
 	local script = Instance.new('LocalScript', eperk2)
 
 	local frame = script.Parent
@@ -947,8 +927,8 @@ local function KNBSA_fake_script() -- eperk2.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(KNBSA_fake_script)()
-local function TIJJZ_fake_script() -- eperk.fadeinout 
+coroutine.wrap(HHLQ_fake_script)()
+local function VDVYS_fake_script() -- eperk.fadeinout 
 	local script = Instance.new('LocalScript', eperk)
 
 	local frame = script.Parent
@@ -985,8 +965,8 @@ local function TIJJZ_fake_script() -- eperk.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(TIJJZ_fake_script)()
-local function ORPDL_fake_script() -- title1.fadeinout 
+coroutine.wrap(VDVYS_fake_script)()
+local function TAJCQEZ_fake_script() -- title1.fadeinout 
 	local script = Instance.new('LocalScript', title1)
 
 	local frame = script.Parent
@@ -1023,8 +1003,8 @@ local function ORPDL_fake_script() -- title1.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(ORPDL_fake_script)()
-local function HYPO_fake_script() -- line_2.fadeinout 
+coroutine.wrap(TAJCQEZ_fake_script)()
+local function HQETXXH_fake_script() -- line_2.fadeinout 
 	local script = Instance.new('LocalScript', line_2)
 
 	local frame = script.Parent
@@ -1061,8 +1041,8 @@ local function HYPO_fake_script() -- line_2.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(HYPO_fake_script)()
-local function QZLJZ_fake_script() -- soon.fadeinout 
+coroutine.wrap(HQETXXH_fake_script)()
+local function CLLBDD_fake_script() -- soon.fadeinout 
 	local script = Instance.new('LocalScript', soon)
 
 	local frame = script.Parent
@@ -1099,8 +1079,8 @@ local function QZLJZ_fake_script() -- soon.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(QZLJZ_fake_script)()
-local function FCMIOL_fake_script() -- main.fadeinout 
+coroutine.wrap(CLLBDD_fake_script)()
+local function WXHEL_fake_script() -- main.fadeinout 
 	local script = Instance.new('LocalScript', main)
 
 	local frame = script.Parent
@@ -1137,8 +1117,8 @@ local function FCMIOL_fake_script() -- main.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(FCMIOL_fake_script)()
-local function VTVVG_fake_script() -- main.drag 
+coroutine.wrap(WXHEL_fake_script)()
+local function LGAIL_fake_script() -- main.drag 
 	local script = Instance.new('LocalScript', main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1174,130 +1154,8 @@ local function VTVVG_fake_script() -- main.drag
 		end
 	end)
 end
-coroutine.wrap(VTVVG_fake_script)()
-local function GTPUT_fake_script() -- KILL.fadeinout 
-	local script = Instance.new('LocalScript', KILL)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(GTPUT_fake_script)()
-local function VXEBTY_fake_script() -- KILL.kill 
-	local script = Instance.new('LocalScript', KILL)
-
-	
-	local function deleteScreenGui()
-		local gui = script.Parent.Parent.Parent
-		gui:Destroy()
-	end
-	
-	script.Parent.MouseButton1Click:Connect(deleteScreenGui)
-end
-coroutine.wrap(VXEBTY_fake_script)()
-local function OFEV_fake_script() -- RE.fadeinout 
-	local script = Instance.new('LocalScript', RE)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(OFEV_fake_script)()
-local function ATDS_fake_script() -- RE.reset 
-	local script = Instance.new('LocalScript', RE)
-
-	local button = script.Parent
-	
-	-- Function to reset the character
-	local function resetCharacter()
-		local player = game.Players.LocalPlayer
-		local character = player.Character
-	
-		-- Check if the character exists
-		if character then
-			local humanoid = character:FindFirstChildOfClass("Humanoid")
-	
-			-- Check if humanoid exists
-			if humanoid then
-				-- Set humanoid's health to 0
-				humanoid.Health = 0
-			end
-		end
-	end
-	
-	-- Connect the function to the button's Click event
-	button.MouseButton1Click:Connect(resetCharacter)
-end
-coroutine.wrap(ATDS_fake_script)()
-local function ZUZONVV_fake_script() -- user.fadeinout 
+coroutine.wrap(LGAIL_fake_script)()
+local function KTFAOHI_fake_script() -- user.fadeinout 
 	local script = Instance.new('LocalScript', user)
 
 	local frame = script.Parent
@@ -1334,8 +1192,8 @@ local function ZUZONVV_fake_script() -- user.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(ZUZONVV_fake_script)()
-local function OVMSTW_fake_script() -- user.userscript 
+coroutine.wrap(KTFAOHI_fake_script)()
+local function ALNGCBO_fake_script() -- user.userscript 
 	local script = Instance.new('LocalScript', user)
 
 	local player = game.Players.LocalPlayer
@@ -1347,462 +1205,8 @@ local function OVMSTW_fake_script() -- user.userscript
 	-- Set the text of the TextLabel to the player's username
 	playerUsernameLabel.Text = playerName
 end
-coroutine.wrap(OVMSTW_fake_script)()
-local function ZHCBPL_fake_script() -- soon_2.fadeinout 
-	local script = Instance.new('LocalScript', soon_2)
-
-	local frame = script.Parent
-	
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(ZHCBPL_fake_script)()
-local function MPDX_fake_script() -- Dex.fadeinout 
-	local script = Instance.new('LocalScript', Dex)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(MPDX_fake_script)()
-local function BCHMBB_fake_script() -- Dex.LocalScript 
-	local script = Instance.new('LocalScript', Dex)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
-	end)
-	
-	
-end
-coroutine.wrap(BCHMBB_fake_script)()
-local function TYUZGZW_fake_script() -- DaHood.fadeinout 
-	local script = Instance.new('LocalScript', DaHood)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(TYUZGZW_fake_script)()
-local function FEESU_fake_script() -- DaHood.LocalScript 
-	local script = Instance.new('LocalScript', DaHood)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
-	end)
-	
-	
-end
-coroutine.wrap(FEESU_fake_script)()
-local function DUVV_fake_script() -- MM2.fadeinout 
-	local script = Instance.new('LocalScript', MM2)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(DUVV_fake_script)()
-local function EWEZOL_fake_script() -- MM2.LocalScript 
-	local script = Instance.new('LocalScript', MM2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
-	end)
-	
-	
-end
-coroutine.wrap(EWEZOL_fake_script)()
-local function EPESCQR_fake_script() -- Bedwars.fadeinout 
-	local script = Instance.new('LocalScript', Bedwars)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(EPESCQR_fake_script)()
-local function IIDIIA_fake_script() -- Bedwars.LocalScript 
-	local script = Instance.new('LocalScript', Bedwars)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-	end)
-	
-	
-end
-coroutine.wrap(IIDIIA_fake_script)()
-local function MHZJY_fake_script() -- Rspy.fadeinout 
-	local script = Instance.new('LocalScript', Rspy)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(MHZJY_fake_script)()
-local function JYMD_fake_script() -- Rspy.LocalScript 
-	local script = Instance.new('LocalScript', Rspy)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
-	end)
-	
-	
-end
-coroutine.wrap(JYMD_fake_script)()
-local function XJPKNZO_fake_script() -- Homebrew.fadeinout 
-	local script = Instance.new('LocalScript', Homebrew)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(XJPKNZO_fake_script)()
-local function IRBH_fake_script() -- Homebrew.LocalScript 
-	local script = Instance.new('LocalScript', Homebrew)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
-	end)
-	
-	
-end
-coroutine.wrap(IRBH_fake_script)()
-local function KAHJRO_fake_script() -- UnnamedESP.fadeinout 
-	local script = Instance.new('LocalScript', UnnamedESP)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(KAHJRO_fake_script)()
-local function TRDD_fake_script() -- UnnamedESP.LocalScript 
-	local script = Instance.new('LocalScript', UnnamedESP)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
-	end)
-	
-	
-end
-coroutine.wrap(TRDD_fake_script)()
-local function CIGYDJB_fake_script() -- IY.fadeinout 
-	local script = Instance.new('LocalScript', IY)
-
-	local frame = script.Parent
-	
-	frame.BackgroundTransparency = 1
-	frame.TextTransparency = 1
-	
-	local isVisible = false
-	
-	local function fadeFrame()
-		local step = 0.2
-		local delay = 0.005
-	
-		if isVisible then
-			for i = 0, 1, step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			frame.BackgroundTransparency = 1
-			frame.TextTransparency = 1
-			isVisible = false
-		else
-			for i = 1, 0, -step do
-				frame.BackgroundTransparency = i
-				frame.TextTransparency = i
-				wait(delay)
-			end
-			isVisible = true
-		end
-	end
-	
-	local function onKeyPress(input)
-		if input.KeyCode == Enum.KeyCode.End then
-			fadeFrame()
-		end
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-end
-coroutine.wrap(CIGYDJB_fake_script)()
-local function SVWOJWG_fake_script() -- IY.LocalScript 
-	local script = Instance.new('LocalScript', IY)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end)
-	
-	
-end
-coroutine.wrap(SVWOJWG_fake_script)()
-local function XUXE_fake_script() -- title2.fadeinout 
+coroutine.wrap(ALNGCBO_fake_script)()
+local function IEUQW_fake_script() -- title2.fadeinout 
 	local script = Instance.new('LocalScript', title2)
 
 	local frame = script.Parent
@@ -1839,8 +1243,88 @@ local function XUXE_fake_script() -- title2.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(XUXE_fake_script)()
-local function ZTWAQGI_fake_script() -- LocalPlayer.fadeinout 
+coroutine.wrap(IEUQW_fake_script)()
+local function MLWN_fake_script() -- line_3.fadeinout 
+	local script = Instance.new('LocalScript', line_3)
+
+	local frame = script.Parent
+	
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(MLWN_fake_script)()
+local function WKFIVU_fake_script() -- Main.fadeinout 
+	local script = Instance.new('LocalScript', Main)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(WKFIVU_fake_script)()
+local function BIRK_fake_script() -- LocalPlayer.fadeinout 
 	local script = Instance.new('LocalScript', LocalPlayer)
 
 	local frame = script.Parent
@@ -1881,10 +1365,336 @@ local function ZTWAQGI_fake_script() -- LocalPlayer.fadeinout
 	
 	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(ZTWAQGI_fake_script)()
-local function DYVEN_fake_script() -- LocalPlayer.LocalScript 
-	local script = Instance.new('LocalScript', LocalPlayer)
+coroutine.wrap(BIRK_fake_script)()
+local function JCPCJ_fake_script() -- Misc.fadeinout 
+	local script = Instance.new('LocalScript', Misc)
 
-	game.StarterGui.poandsoguiV2.Frame.BackgroundTransparency = 1
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(DYVEN_fake_script)()
+coroutine.wrap(JCPCJ_fake_script)()
+local function EVZAVBY_fake_script() -- line_4.fadeinout 
+	local script = Instance.new('LocalScript', line_4)
+
+	local frame = script.Parent
+	
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(EVZAVBY_fake_script)()
+local function PEHUJ_fake_script() -- Homebrew.fadeinout 
+	local script = Instance.new('LocalScript', Homebrew)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(PEHUJ_fake_script)()
+local function XLBBVCE_fake_script() -- IY.fadeinout 
+	local script = Instance.new('LocalScript', IY)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(XLBBVCE_fake_script)()
+local function PWTU_fake_script() -- owlhub.fadeinout 
+	local script = Instance.new('LocalScript', owlhub)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(PWTU_fake_script)()
+local function VRYTGCG_fake_script() -- poandso.fadeinout 
+	local script = Instance.new('LocalScript', poandso)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(VRYTGCG_fake_script)()
+local function SAUZ_fake_script() -- simplesply.fadeinout 
+	local script = Instance.new('LocalScript', simplesply)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(SAUZ_fake_script)()
+local function HUFDZW_fake_script() -- unnamedesp.fadeinout 
+	local script = Instance.new('LocalScript', unnamedesp)
+
+	local frame = script.Parent
+	
+	frame.BackgroundTransparency = 1
+	frame.TextTransparency = 1
+	
+	local isVisible = false
+	
+	local function fadeFrame()
+		local step = 0.2
+		local delay = 0.005
+	
+		if isVisible then
+			for i = 0, 1, step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			frame.BackgroundTransparency = 1
+			frame.TextTransparency = 1
+			isVisible = false
+		else
+			for i = 1, 0, -step do
+				frame.BackgroundTransparency = i
+				frame.TextTransparency = i
+				wait(delay)
+			end
+			isVisible = true
+		end
+	end
+	
+	local function onKeyPress(input)
+		if input.KeyCode == Enum.KeyCode.End then
+			fadeFrame()
+		end
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
+end
+coroutine.wrap(HUFDZW_fake_script)()
